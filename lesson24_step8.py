@@ -5,6 +5,7 @@ from selenium import webdriver
 import math
 import time
 
+
 def calc(x):
     return str(math.log(abs(12 * math.sin(int(x)))))
 
@@ -30,8 +31,3 @@ finally:
     browser.quit()
 
     # не забываем оставить пустую строку в конце файла
-
-
-
-
-
